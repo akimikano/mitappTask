@@ -51,6 +51,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+# ATOMIC_REQUESTS = True
+
 ROOT_URLCONF = 'mitapp.urls'
 
 TEMPLATES = [
